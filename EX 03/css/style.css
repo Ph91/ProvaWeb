@@ -1,15 +1,5 @@
-*, *::after, *::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html, body{
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-/*Classes auxiliares*/
-.container{
+.center{
     margin: 40px auto;
     max-width: 800px;
     width: 100%;
@@ -21,22 +11,17 @@ html, body{
     clear: both;
 }
 
-/*Formatacao*/
 h2{
     background-color: rgb(231, 229, 229);
     padding: 5px;
     font-size: 22px;
     margin: 10px 0;
-    -webkit-box-shadow: -2px 8px 6px -3px rgba(0,0,0,0.50);
-    -moz-box-shadow: -1px 7px 5px -2px rgba(0,0,0,0.50);
-    box-shadow: -1px 7px 5px -2px rgba(0,0,0,0.50);
+    box-shadow: -1px 7px 5px -2px rgba(0,0,0,0.60);
 }
 fieldset{
     margin-top: 29px;
     padding: 19px 39px;
     background-color: rgb(255, 255, 246);
-    -webkit-box-shadow: 5px 6px 5px -2px rgba(0,0,0,0.55);
-    -moz-box-shadow: 5px 6px 5px -2px rgba(0,0,0,0.55);
     box-shadow: 4px 6px 5px -2px rgba(0,0,0,0.55);
 }
 span{
@@ -53,20 +38,8 @@ label{
     font-size: 15px;
     font-weight: bold;
 }
-.single-box{
+.box{
     margin-bottom: 20px;
-}
-input[name=nome]{
-    width: 300px;
-}
-input[name=email]{
-    width: 366px;
-}
-input[name=login]{
-    width: 273px;
-}
-input[name=senha]{
-    width: 270px;
 }
 .btn-box{
     text-align: center;
@@ -83,10 +56,4 @@ input[type=submit]{
     font-weight: bold;
     cursor: pointer;
     padding: 8px;
-}
-input[type=submit]:hover{
-    background-color: rgb(141, 137, 137);
-}
-input[type=reset]:hover{
-    background-color: rgb(141, 137, 137);
 }

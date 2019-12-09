@@ -1,4 +1,4 @@
 
-function boasvindas(){
+function vindas(){
     alert("Muito Bem-vindo");
 }

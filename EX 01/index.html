@@ -8,18 +8,18 @@
         <title>Exercicio 01 - 01</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body onload="boasvindas()">
-        <div class="container">
-            <div class="secao1">
-                <label for="entradatexto">Insira seu Texto:</label>
-                <input type="text" id="entradatexto" name="entradatexto">
-                <button type="submit" onclick="msgclick()">Adicionar Texto</button>
+    <body onload="vindas()">
+        <div class="center">
+            <div class="div1">
+                <label for="entradatexto">Nome:</label>
+                <input type="text" id="texto" name="texto">
+                <button type="submit" onclick="msgclick()">Adicionar</button>
 
-                <div id="saidatexto"></div>
+                <div id="saida"></div>
             </div>
 
-            <div class="secao2">
-                <select id="selecionar" onchange="selecione()">
+            <div class="div2">
+                <select id="selecao" onchange="selecione1()">
                     <option value="Selecione" selected>Selecione</option>
                     <option value="Matematica">Matematica</option>
                     <option value="Fisica">Fisica</option>
@@ -28,10 +28,10 @@
                     <option value="Educação Fisica">Educação Fisica</option>
                 </select>
 
-                <div id="selectdiv"></div>
+                <div id="sdiv"></div>
             </div>
         </div>
-        <!--scripts-->
+        
         <script src="js/carregar.js"></script>
         <script src="js/clicar.js"></script>
         <script src="js/change.js"></script>

@@ -1,5 +1,5 @@
 
-function selecione(){
-    var n = document.getElementById("selecionar").value;
-    document.getElementById("selectdiv").innerHTML = n;
+function selecione1(){
+    var n = document.getElementById("selecao").value;
+    document.getElementById("sdiv").innerHTML = n;
 }
