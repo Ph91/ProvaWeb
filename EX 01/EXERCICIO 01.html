@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Exercicio 01 - 01</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body onload="boasvindas()">
+        <div class="container">
+            <div class="secao1">
+                <label for="entradatexto">Insira seu Texto:</label>
+                <input type="text" id="entradatexto" name="entradatexto">
+                <button type="submit" onclick="msgclick()">Adicionar Texto</button>
+
+                <div id="saidatexto"></div>
+            </div>
+
+            <div class="secao2">
+                <select id="selecionar" onchange="selecione()">
+                    <option value="Selecione" selected>Selecione</option>
+                    <option value="Matematica">Matematica</option>
+                    <option value="Fisica">Fisica</option>
+                    <option value="Geografia">Geografia</option>
+                    <option value="Ciencias">Ciencias</option>
+                    <option value="Educação Fisica">Educação Fisica</option>
+                </select>
+
+                <div id="selectdiv"></div>
+            </div>
+        </div>
+        <!--scripts-->
+        <script src="js/carregar.js"></script>
+        <script src="js/clicar.js"></script>
+        <script src="js/change.js"></script>
+    </body>
+</html>
